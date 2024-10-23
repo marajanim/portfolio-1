@@ -154,4 +154,51 @@ h2{
     margin-top: 32px;
 }
 
+.section-4{
+    
+    width: 100%;
+    padding: 97px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card-parent {
+
+    display: flex;
+    width: 998px;
+    gap: 24px;
+    
+
+}
+
+.card{
+    padding: 25px;
+    border-radius: 16px;
+}
+
+.card-1 {
+    background-color: #FFF6F3;
+
+}
+
+.card-2 {
+    background-color: #F2F6FE;
+}
+
+.card-3 {
+    background-color: #FFFDF2;
+}
+
+.card>a {
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0D1321;
+}
+
+.card>img {
+    margin-bottom: 24px;
+}
 
