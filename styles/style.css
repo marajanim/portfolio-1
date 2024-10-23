@@ -145,4 +145,13 @@ h2{
 
 }
 
+.yt-video {
+
+    width: 998px;
+    height: 550px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 32px;
+}
+
 
