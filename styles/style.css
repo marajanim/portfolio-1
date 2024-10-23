@@ -1,0 +1,148 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Azeret Mono", monospace;
+}
+
+/* nav styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* nav button styles */
+.nav-button {
+    color: #0D1321;
+    border: 1px solid #0D1321;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+/* hero section styles */
+.hero {
+    background-image: url('../images/Hero-bg.png');
+    text-align: center;
+    width: 100%;
+    height: 650px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-img {
+    width: 240px;
+    height: 240px;
+}
+
+.div-width {
+    
+    width: 998px;
+
+}
+
+.hero>div>h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    color: #0D1321;
+    margin: 20px 10px;
+}
+
+.all-p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #0D1321;
+    margin: 40px 0px;
+
+}
+
+.hero-btn {
+    
+    background-color:#0D1321;
+    color: #ffffff;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+/* section 2 styles */
+.section-2{
+    
+    width: 100%;
+    padding: 97px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.center{
+    text-align: center;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.layer {
+    width: 946px;
+    display: flex;
+    padding: 48px 0px;
+    gap: 24px;
+}
+
+.layer-text {
+    width: 477px;
+}
+
+.layer-p {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #0D1321;
+    margin-bottom: 40px;
+}
+
+.layer-h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.layer-img {
+    margin-left: 180px;
+}
+
+.section-3{
+    
+    width: 100%;
+    padding: 97px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
