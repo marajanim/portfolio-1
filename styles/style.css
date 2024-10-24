@@ -12,10 +12,12 @@ body {
 
 /* nav styles */
 nav {
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
-    margin: 50px 150px;
+    padding: 30px 130px;
     align-items: center;
+    margin:0 auto;
 }
 
 li{
@@ -244,4 +246,15 @@ h2{
     background-color: #ffffff;
     padding: 15px;
     border-radius: 5px;
+}
+
+/* footer styles */
+.footer-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background-color: #F7F8F8;
+    max-width: 1200px;
+    margin: 0 auto;
 }
